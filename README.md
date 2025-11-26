@@ -2,6 +2,10 @@
 
 [Gleam](https://gleam.run/) project with [lustre](https://lustre.build/) library and [vitejs](https://vite.dev/) with/or not [experimental rolldown](https://rolldown.rs/) runtime.
 
+Uses [gbr_ui](https://github.com/gleam-br/gbr_ui/) elements in example with sidebar, header, logo, user, etc.
+
+See the code in [gbr_ui_demo](./src/gbr_ui_demo.gleam) and happy tests!
+
 ## Plugin
 
 - [vite-plugin-gleam](https://github.com/gleam-br/vite-plugin-gleam)

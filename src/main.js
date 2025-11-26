@@ -7,7 +7,7 @@
 // import { main } from "./welcome"
 
 // Test lustre package
-// import "./main.css"
+import "./main.css"
 import { main } from "./gbr_ui_demo.gleam"
 
 main()

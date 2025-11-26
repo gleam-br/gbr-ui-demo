@@ -106,7 +106,7 @@ fn view(m: Model) {
     sidebar.at(sidebar, OnClick)
     |> sidebar.render()
 
-  ui.primary(header:, sidebar:, content: Some(show_case()))
+  ui.primary(header:, sidebar:, content: show_case())
 }
 
 fn show_case() {
@@ -116,4 +116,5 @@ fn show_case() {
     ],
     list.append(alert_show.alert_case(), svg_show.svg_case()),
   )
+  |> Some
 }
